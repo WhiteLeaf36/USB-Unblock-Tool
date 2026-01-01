@@ -19,7 +19,7 @@ It scans the Windows Event Logs (Kernel-PnP Event ID 225) to identify exactly wh
     > **Note:** The script relies on this error event to find the process.
 
 2.  **Run the Script:**
-    * Locate the `USB_Blocker_Detector.ps1` file.
+    * Locate the `USBUnblockTool-English.ps1` file.
     * **Right-click** the file and select **"Run with PowerShell"**.
     * *(Note: Do not just double-click, as it may open in Notepad by default).*
 
