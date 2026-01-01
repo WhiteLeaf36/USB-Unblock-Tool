@@ -31,10 +31,7 @@ It scans the Windows Event Logs (Kernel-PnP Event ID 225) to identify exactly wh
 
 **Q: The script closes immediately / Red text appears.**
 
-**A:** This is usually due to Windows Execution Policy. You may need to allow script execution. Open PowerShell as Admin and run:
-```powershell
-Set-ExecutionPolicy RemoteSigned
-```
+**A:** Try opening PowerShell as Admin and running the script manually. Make sure the filename of the script does **not include any special characters or space**.
 
 ## 🛠️ Requirements
 
