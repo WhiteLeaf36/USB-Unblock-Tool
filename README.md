@@ -29,10 +29,7 @@
 
 **问：脚本一闪而过或出现红字报错？**
 
-**答：** 这通常是因为 Windows 的执行策略限制。请以管理员身份打开 PowerShell 并运行以下命令以允许脚本运行：
-```powershell
-Set-ExecutionPolicy RemoteSigned
-```
+**答：** 请以管理员身份打开 PowerShell 并尝试手动运行脚本，并确保脚本名称**不含任何中文字符或空格**。
 
 ## 🛠️ 环境要求
 
